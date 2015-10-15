@@ -1,5 +1,5 @@
 {
-  "name": "mhplus-prototype",
+  "name": "a21-build-environment",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artplan21/mhplus-prototype.git"
+    "url": "git+https://github.com/artplan21/a21-build-environment.git"
   },
   "author": "",
   "license": "GPL3",
   "bugs": {
-    "url": "https://github.com/artplan21/mhplus-prototype/issues"
+    "url": "https://github.com/artplan21/a21-build-environment/issues"
   },
-  "homepage": "https://github.com/artplan21/mhplus-prototype#readme",
+  "homepage": "https://github.com/artplan21/a21-build-environment#readme",
   "dependencies": {
     "bower": "*"
   }
