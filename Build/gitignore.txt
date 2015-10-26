@@ -1,29 +1,32 @@
-# Ignore sass cache
+# Sass, Compass & Co.
 .sass-cache
-styles.css.map
-# Ignore bundler's stuff
+*.scssc
+# Ruby's bundler
 .bundle
-# Ignore node.js' stuff
+# node.js
 node_modules
-# Ignore IntelliJ aka PHPStorm stuff
+# IntelliJ aka PHPStorm, Webstorm & Co.
 .idea
-# Ignore Eclipse stuff
+.idea*
+.~lock*
+# Eclipse
 .settings*
 .project*
 .data*
 .build*
-# Ignore subversion
+# subversion
 .svn*
-# Ignore Mac OSX stuff
+# Mac OSX
 .DS_Store
-# Ignore Windows stuff
+._*
+# Windows
 Thumbs.db
-# Ignore TYPO3 stuff
+# TYPO3
 typo3temp
 typo3
 typo3_src*
 fileadmin
-# Ignore Bash stuff
+# bash
 *.bak
 *~
 ~*
