@@ -1,0 +1,30 @@
+# Ignore sass cache
+.sass-cache
+styles.css.map
+# Ignore bundler's stuff
+.bundle
+# Ignore node.js' stuff
+node_modules
+# Ignore IntelliJ aka PHPStorm stuff
+.idea
+# Ignore Eclipse stuff
+.settings*
+.project*
+.data*
+.build*
+# Ignore subversion
+.svn*
+# Ignore Mac OSX stuff
+.DS_Store
+# Ignore Windows stuff
+Thumbs.db
+# Ignore TYPO3 stuff
+typo3temp
+typo3
+typo3_src*
+fileadmin
+# Ignore Bash stuff
+*.bak
+*~
+~*
+.bash_history
