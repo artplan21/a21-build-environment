@@ -1,0 +1,21 @@
+# eclipse
+.settings*
+.project*
+.data*
+.build*
+# subversion
+.svn*
+# phpstorm
+.idea*
+.~lock*
+# apple
+.DS_Store
+._.DS_Store
+# sass
+.sass-cache*
+*.scssc
+# bundler
+.bundle
+Build/bin
+# node.js
+node_modules
