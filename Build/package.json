@@ -16,6 +16,8 @@
   },
   "homepage": "https://github.com/artplan21/a21-build-environment#readme",
   "dependencies": {
-    "bower": "*"
+    "bower": "*",
+    "foundation-cli": "*",
+    "foundation-sites": "*"
   }
 }
