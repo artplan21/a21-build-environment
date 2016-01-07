@@ -18,6 +18,7 @@
   "dependencies": {
     "bower": "*",
     "foundation-cli": "*",
-    "foundation-sites": "*"
+    "foundation-sites": "*",
+    "sass-brunch": "*"
   }
 }
