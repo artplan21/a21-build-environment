@@ -2,9 +2,9 @@
 .sass-cache
 *.scssc
 # Ruby's bundler
-.bundle
+Build/.bundle
 # node.js
-node_modules
+Build/node_modules
 # IntelliJ aka PHPStorm, Webstorm & Co.
 .idea
 .idea*
@@ -23,10 +23,10 @@ node_modules
 # Windows
 Thumbs.db
 # TYPO3
-typo3temp
-typo3
-typo3_src*
-fileadmin
+typo3temp/
+typo3/
+typo3_src*/
+fileadmin/
 # bash
 *.bak
 *~
