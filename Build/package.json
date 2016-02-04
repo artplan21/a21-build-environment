@@ -19,6 +19,7 @@
     "bower": "*",
     "foundation-cli": "*",
     "foundation-sites": "*",
-    "sass-brunch": "*"
+    "sass-brunch": "*",
+    "modernizr": "*"
   }
 }
