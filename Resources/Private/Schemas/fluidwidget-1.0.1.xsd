@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://typo3.org/ns/fluidwidget">
+<xsd:element name="bootstrap.alert">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="type">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Widget type - match plugin function name in JS]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="for">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[DOM element ID associated with this Widget]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="options">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Options for the Widget. If this is not an array it will be treated as NULL]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="bootstrap.button">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="type">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Widget type - match plugin function name in JS]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="for">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[DOM element ID associated with this Widget]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="options">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Options for the Widget. If this is not an array it will be treated as NULL]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="bootstrap.carousel">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="type">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Widget type - match plugin function name in JS]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="for">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[DOM element ID associated with this Widget]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="options">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Options for the Widget. If this is not an array it will be treated as NULL]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="bootstrap.collapse">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="type">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Widget type - match plugin function name in JS]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="for">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[DOM element ID associated with this Widget]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="options">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Options for the Widget. If this is not an array it will be treated as NULL]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="bootstrap.dropdown">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="type">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Widget type - match plugin function name in JS]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="for">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[DOM element ID associated with this Widget]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="options">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Options for the Widget. If this is not an array it will be treated as NULL]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="bootstrap.popover">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="type">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Widget type - match plugin function name in JS]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="for">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[DOM element ID associated with this Widget]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="options">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Options for the Widget. If this is not an array it will be treated as NULL]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="bootstrap.scrollspy">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="type">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Widget type - match plugin function name in JS]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="for">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[DOM element ID associated with this Widget]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="options">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Options for the Widget. If this is not an array it will be treated as NULL]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="bootstrap.tabs">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="type">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Widget type - match plugin function name in JS]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="for">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[DOM element ID associated with this Widget]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="options">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Options for the Widget. If this is not an array it will be treated as NULL]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="bootstrap.typeahead">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="type">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Widget type - match plugin function name in JS]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="for">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[DOM element ID associated with this Widget]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="options">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Options for the Widget. If this is not an array it will be treated as NULL]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="content.ajaxFluxContent">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="additionalAttributes">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Additional tag attributes. They will be added directly to the resulting HTML tag.]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="action">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Action to be performed, defaults to the default action if pluginName is specified, if not then the current Request action is inherited]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="controller">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Controller]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="pluginName">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Plugin name]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="extensionName">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Extension name]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="arguments">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Arguments to be passed to the action. If a non-array value is encountered, an array transformation is attempted. If unsuccesful, fallback to an empty array is performed to silently suppress errors. Enable "debug" on this ViewHelper to switch this suppression off.]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="pageUid">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Optional page UID to use when dispatching the Request (note: if this argument is used, the target URL is requested over HTTP and will contain design output unless this is prevented! This is done in order to completely isolate the Request)]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="typeNum">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Optional typeNum to use in the Request - requires that this typeNum is registered in order to function]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="format">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Format to use in the Request. Default value is inherited from the current context]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="ajax">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[On by default; this is after all an Ajax Widget]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="delay">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Optional delay before loading through AJAX - only applies if AJAX is enabled.]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="debug">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[If enabled, avoids supressing errors that may be encountered while building/dispatching the sub request]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="parentUid" use="required">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[UID of the parent content element]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="area" use="required">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Name of the area from which to render content]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="link.file">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="mode">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Linkage mode - use "passthrough" or "direct". Using passthrough, \
+                        the url or target file will be passed through this Widget before download starts. This is a way to enforce \
+                        access protection - for example, a file linked with "passthrough" would only be downloadable if the \
+                        plugin/content that displays this Widget is also accessible.]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="target">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[URI resource style target. Absolute paths supported when using "passthrough"]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="content">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[If used, takes content from this variable instead of tag content]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="mimeType">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[If set, overrides automatically detected MIME type. Only applies to "passthrough" mode]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="request.dispatch">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="additionalAttributes">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Additional tag attributes. They will be added directly to the resulting HTML tag.]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="action">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Action to be performed, defaults to the default action if pluginName is specified, if not then the current Request action is inherited]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="controller">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Controller to be requested, defaults to the default controller if pluginName is specified, if not then the current Request controller is inherited]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="pluginName">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Plugin name to be requested - if left out, current pluginName is inherited]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="extensionName">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Extension name of extension containing the plugin to be requested. If left out, current extensionName is inherited]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="arguments">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Arguments to be passed to the action. If a non-array value is encountered, an array transformation is attempted. If unsuccesful, fallback to an empty array is performed to silently suppress errors. Enable "debug" on this ViewHelper to switch this suppression off.]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="pageUid">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Optional page UID to use when dispatching the Request (note: if this argument is used, the target URL is requested over HTTP and will contain design output unless this is prevented! This is done in order to completely isolate the Request)]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="typeNum">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Optional typeNum to use in the Request - requires that this typeNum is registered in order to function]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="format">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Format to use in the Request. Default value is inherited from the current context]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="ajax">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[If TRUE, only an empty container is output and AJAX is used to request the final Request URI when the page is loaded. jQuery is required!]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="delay">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Optional delay before loading through AJAX - only applies if AJAX is enabled.]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="debug">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[If enabled, avoids supressing errors that may be encountered while building/dispatching the sub request]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="uri.file">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[]]>
+</xsd:documentation>
+</xsd:annotation>
+<xsd:complexType mixed="true">
+<xsd:sequence>
+<xsd:any minOccurs="0" maxOccurs="unbounded" />
+</xsd:sequence>
+<xsd:attribute type="xsd:string" name="mode">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[Linkage mode - use "passthrough" or "direct". Using passthrough, \
+                        the url or target file will be passed through this Widget before download starts. This is a way to enforce \
+                        access protection - for example, a file linked with "passthrough" would only be downloadable if the \
+                        plugin/content that displays this Widget is also accessible.]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="target">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[URI resource style target. Absolute paths supported when using "passthrough"]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="content">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[If used, takes content from this variable instead of tag content]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+<xsd:attribute type="xsd:string" name="mimeType">
+<xsd:annotation>
+<xsd:documentation>
+<![CDATA[If set, overrides automatically detected MIME type. Only applies to "passthrough" mode]]>
+</xsd:documentation>
+</xsd:annotation>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
