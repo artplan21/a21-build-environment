@@ -15,6 +15,7 @@ Build/node_modules
 .data*
 .build*
 .externalToolBuilders*
+.tern-project*
 # subversion
 .svn*
 # Mac OSX
