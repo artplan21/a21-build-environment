@@ -1,0 +1,11 @@
+November 1st, 2013:
+
+ViewHelper namespaces have been moved from the fedext.net domain to the
+typo3.org domain - new NS urls are used in the XSD located in this folder.
+
+To migrate, simply change your XSD namespace URL mappings to point to:
+
+http://typo3.org/ns/$extensionKey
+
+This change unifies our namespaces with those used in the core for
+better transparency.
