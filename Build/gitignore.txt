@@ -28,6 +28,18 @@ typo3temp/
 typo3/
 typo3_src*/
 fileadmin/
+uploads/
+deprecation_*.log
+# JUNO
+SKIP_CRON
+data/typo3temp/
+data/typo3/
+data/typo3_src*/
+data/fileadmin
+data/uploads
+build
+conf
+# Other
 # bash
 *.bak
 *~
