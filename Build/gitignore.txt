@@ -33,3 +33,5 @@ fileadmin/
 *~
 ~*
 .bash_history
+# vhosts-scripts
+.vhosts-remote-config
